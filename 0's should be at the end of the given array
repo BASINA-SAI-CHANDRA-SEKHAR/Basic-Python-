@@ -1,0 +1,7 @@
+arr=[0,1,0,0,1,2,3]
+for ele in arr:
+    if ele==0:
+        arr.append(ele)
+        arr.remove(ele)
+print(arr)
+  
