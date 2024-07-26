@@ -1,0 +1,12 @@
+number=int(input())
+sum=0
+temp=number
+while temp>0:
+    rem=temp%10
+    sum=sum+rem**3
+    temp//=10
+
+if number==sum:
+    print("Armstrong")
+else:
+    print("Not a Armstron")
