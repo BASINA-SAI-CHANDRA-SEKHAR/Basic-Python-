@@ -1,0 +1,9 @@
+def lar(arr):
+    n=len(arr)+1
+    maximum=arr[0]
+    for i in arr:
+        if i>maximum:
+            maximum=i
+    return maximum
+
+print(lar([1,2,3,4,5]))
