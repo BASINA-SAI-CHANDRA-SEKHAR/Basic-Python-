@@ -1,0 +1,19 @@
+def words(s):
+    result=""
+    array=[]
+    for i in range(len(s)):
+        if s[i]==' ':
+            array.append(result)
+            array.append(' ')
+    
+            result=""
+        else:
+            result+=s[i]
+            
+    array.append(result)
+    
+    for i in range(len(array)-1,-1,-1):
+        print(array[i], end="")
+        
+s=input()
+words(s)
