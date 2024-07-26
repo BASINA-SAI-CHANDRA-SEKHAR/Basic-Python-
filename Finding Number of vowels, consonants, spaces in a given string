@@ -1,0 +1,17 @@
+def find(s):
+    spaces=0
+    consonants=0
+    vowels=0
+    for char in s:
+        if char.lower() in 'aeiou':
+            vowels+=1
+        elif char.isalpha():
+            consonants+=1
+        elif char.isspace():
+            spaces+=1
+    return vowels,consonants,spaces
+string=input()
+vowels,consonants,spaces=find(string)
+print(vowels)
+print(consonants)
+print(spaces)
