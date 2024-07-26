@@ -1,0 +1,33 @@
+def andcase(s1,s2):
+    result=""
+    for i in range(len(s2)):
+        if s1[i]=='1' and s2[i]=='1':
+            result+='1'
+        else:
+            result+='0'
+    return result
+def orcase(s1,s2):
+    result=""
+    for i in range(len(s2)):
+        if s1[i]=='0' and s2[i]=='0':
+            result+='0'
+        else:
+            result+='1'
+    return result
+def xorcase(s1,s2):
+    result=""
+    for i in range(len(s2)):
+        if s1[i]==s2[i]:
+            result+='0'
+        else:
+            result+='1'
+    return result
+s1=input()
+s2=input()
+operator=input()
+if operator=="AND":
+    print(andcase(s1,s2))
+elif operator=="OR":
+    print(orcase(s1,s2))
+elif operator=="XOR":
+    print(xorcase(s1,s2))
