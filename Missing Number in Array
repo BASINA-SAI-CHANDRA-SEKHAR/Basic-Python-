@@ -1,0 +1,8 @@
+a=[1,2,3,5,6,7]
+total=0
+n=len(a)+1
+for ele in a:
+    t=n*(n+1)/2
+    p=sum(a)
+print(t-p)
+    
