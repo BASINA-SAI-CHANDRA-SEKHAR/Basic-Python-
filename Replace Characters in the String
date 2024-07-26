@@ -1,0 +1,14 @@
+def replacecharacter(s,ch1,ch2):
+    result=""
+    for i in range(len(s)):
+        if s[i]==ch1:
+            result+=ch2
+        elif s[i]==ch2:
+            result+=ch1
+        else:
+            result+=s[i]
+    return result
+s=input()
+ch1=input()
+ch2=input()
+print(replacecharacter(s,ch1,ch2))
