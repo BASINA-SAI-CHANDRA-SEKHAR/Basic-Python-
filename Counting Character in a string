@@ -1,0 +1,4 @@
+string=input()
+ch=input()
+c=string.count(ch)
+print(c)
