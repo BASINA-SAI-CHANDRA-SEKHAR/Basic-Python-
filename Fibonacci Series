@@ -1,0 +1,12 @@
+num=int(input())
+f=0
+s=1
+sum=0
+if num<0:
+    print("invalid")
+else:
+    for i in range(0,num):
+        print(sum,end=" ")
+        f=s
+        s=sum
+        sum=f+s
