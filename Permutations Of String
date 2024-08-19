@@ -1,0 +1,7 @@
+import math
+a=input()
+b=list(a)
+c=set(b)
+d=len(b)-len(c)
+res=math.factorial(len(c))//math.factorial(d)
+print(res)
