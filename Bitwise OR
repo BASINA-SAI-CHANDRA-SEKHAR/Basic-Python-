@@ -1,0 +1,16 @@
+Given two integers, A and B, find and return the integer representing their bitwise OR.
+
+
+def int_binary(n):
+    binary=''
+    while n>0:
+        rem=n%2
+        binary=str(rem)+binary
+        n//=2
+    return binary
+num1=5
+num2=9
+print(int_binary(num1))
+print(int_binary(num2))
+c=num1 | num2
+c
