@@ -1,0 +1,6 @@
+Find the product of two integers (X) and (Y) and represent it in a 12-hour format.
+a=int(input())
+b=int(input())
+c=a*b
+d=c%12
+d
