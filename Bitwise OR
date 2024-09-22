@@ -1,4 +1,4 @@
-Given two integers, A and B, find and return the integer representing their bitwise OR.
+Given two integers, A and B Convert these two numbers into binary First, then return the integer representing their bitwise OR.
 
 
 def int_binary(n):
