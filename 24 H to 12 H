@@ -1,0 +1,7 @@
+#clock problem 
+#task:Convert 24 H to 12 H 
+n=int(input())
+c=n%12
+if c==0:
+    print("24 hours Completed")
+print(c)
