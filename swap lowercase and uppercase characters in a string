@@ -1,0 +1,9 @@
+# Write a program to swap lowercase and uppercase characters in a string (lower and upper vice-versa).
+s="sAiChAnDu"
+res=""
+for char in s:
+    if char.islower():
+        res+=char.upper()
+    if char.isupper():
+        res+=char.lower()
+print(res)
