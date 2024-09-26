@@ -1,0 +1,6 @@
+# Reverse string Capitalize
+s="saichandu"
+res=""
+for char in s:
+    res=char+res
+print(res.upper())
