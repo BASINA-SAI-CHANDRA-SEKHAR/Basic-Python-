@@ -1,0 +1,11 @@
+# Write a program to print all characters that appear an odd number of times in a string.
+s="aaabbbcccddsa"
+count={}
+for i in s:
+    if i in count:
+        count[i]+=1
+    else:
+        count[i]=1
+for i in count:
+    if count[i]%2!=0:
+        print(i,count[i])
