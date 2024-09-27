@@ -1,0 +1,11 @@
+# Write a program to capitalize only alphabetic characters that are at even indices.
+s="Sa1iCh4ndu3"
+res=""
+n=len(s)
+for i in range(n):
+    if i%2==0:
+        if s[i].isalpha():
+            res+=s[i].upper()
+        else:
+            res+=s[i]
+print(res)
