@@ -1,0 +1,13 @@
+# Write a program to capitalize the last letter of every word in a string.(multiple strings)
+def last(str):
+    if len(str)==0:
+        return False
+    else:
+        c=str[len(str)-1].upper()
+    return c
+str1="saichandu"
+str2="venky"
+print(str1)
+print("The Last capitalize char of str1 is",last(str1))
+print(str2)
+print("The Last capitalize char of str2 is",last(str2))
