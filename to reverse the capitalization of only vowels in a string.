@@ -1,0 +1,8 @@
+# Write a program to reverse the capitalization of only vowels in a string.
+s="saichandu"
+vowels="aeiouAEIOU"
+res=''
+for char in s:
+    if char in vowels:
+        res=char+res
+print(res.upper())
