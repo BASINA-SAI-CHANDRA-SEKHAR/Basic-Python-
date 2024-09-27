@@ -1,0 +1,4 @@
+# Write a program to capitalize the first and last character of each word in a string.
+s="saichandu"
+n=len(s)
+print(s[0].upper()+s[1:n-1]+s[-1].upper())
