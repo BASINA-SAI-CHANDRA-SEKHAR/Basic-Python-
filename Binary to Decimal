@@ -1,0 +1,7 @@
+# binary to decimal
+binary="1010"
+decimal=0
+for i in range(len(binary)):
+    b=int(binary[i])
+    decimal+=b*2**(len(binary)-i-1)
+decimal
